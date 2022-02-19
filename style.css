@@ -60,9 +60,9 @@ li {
 }
 
 .tlacitko {
-	display: inline-block;
+	display: block;
 	font-family: Monserrat, sans-serif;
-	font-size: 36px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
@@ -76,7 +76,7 @@ li {
 	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .tlacitko:active {

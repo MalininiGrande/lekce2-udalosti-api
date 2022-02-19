@@ -19,13 +19,23 @@
 
 	<button class="tlacitko">Čudlajs</button> <br>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
-
-	<p onmouseover="setBold()" onmouseout="setNormal()">V elipse spí lev</p> <br>
+	<p class="text" onmouseover="setBold()" onmouseout="setNormal()">V elipse spí lev</p> <br>
 
 	<button onclick="changeToRed()" class="tlacitko">Červený po kliknutí</button> <br>
 
-	<button onclick="makeBigger()" class="tlacitko">Větší po kliknutí</button> <br>
+	<button id="button" onclick="increaseSize()" class="tlacitko">Větší po kliknutí</button> <br>
+
+	<audio id="zvuk" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+	<h1>AUDIOPLAYER</h1>
+
+	<button onclick="playAudio()" class="tlacitko">Play Audio</button> <br>
+	<button onclick="pause()" class="tlacitko">Pause</button> <br>
+	<button onclick="mute()" class="tlacitko">Mute</button> <br>
+	<button onclick="unmute()" class="tlacitko">Unmute</button> <br>
+	<button onclick="volumeAverage()" class="tlacitko">Volume that does not make your ears bleed</button> <br>
+	<button onclick="volumeMax()" class="tlacitko">Your eardrums exploded</button> <br>
+	<button onclick="rewind()" class="tlacitko">Let's play it once more</button> <br>
 
 
 	<script type="text/javascript" src="main.js"></script>
