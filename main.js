@@ -9,25 +9,33 @@ nadpis.classList.remove('zluty');
 let ctverecek = document.querySelector('div.zluty');
 ctverecek.classList.add('ctverecek');
 
+
 function priNajeti() {
 console.log('test');
 }
 
 let odstavec = document.querySelector('p')
-// // odstavec.classList.toggle("paragraph");
+// odstavec.classList.toggle("AddRed");
 
-// function onMouse() {
-//     odstavec.classList.toggle("paragraph");
-//     paragraph.style.color = 'red'
-// }
+let AddRed = document.querySelector("p")
 
+function changeToRed() {
+   odstavec.classList.toggle("AddRed");
+    // AddRed.style.color = 'red'
+}
+
+function makeBigger() {
+    odstavec.style.fontSize = "larger" 
+}
 
 function setBold() {
 odstavec.style.fontWeight = 'bold'
-
 }
 
 function setNormal() {
 odstavec.style.fontWeight = 'normal'
-
 }
+
+
+
+

@@ -76,6 +76,7 @@ li {
 	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
+	margin-bottom: 30px;
 }
 
 .tlacitko:active {
@@ -124,4 +125,30 @@ li {
 
 p {
 	font-size: 16px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+button {
+display: inline-block;
+font-family: Monserrat, sans-serif;
+font-size: 36px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+text-align: center;
+text-shadow: 1px 1px 0px #c5376d;
+padding: 10px 30px;
+position: relative;
+cursor: pointer;
+border: none;
+background: #f78db5;
+background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
+border-radius: 5px;
+box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
+}
+
+.AddRed {
+	color: red;
 }
